@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const app = express();
+const hostname = '0.0.0.0'
 const port = process.env.PORT || 8080; // Use the port provided by Netlify
 
 // Serve static files from the 'public' directory
@@ -34,6 +35,6 @@ app.use((req, res) => {
   res.status(404).send("<h1>404 nothing is here</h1>");
 });
 
-app.listen(port, () => {
+app.listen(port, hostname, () => {
   console.log(`Great our server is running on port ${port}`);
 });
