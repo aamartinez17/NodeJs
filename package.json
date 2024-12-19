@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.21.2",
     "nodeJS": "^1.0.0"
   }
 }
