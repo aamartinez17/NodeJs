@@ -1,11 +1,16 @@
 const http = require("http");
 const path = require("path");
 const fs = require("fs");
-const port = 8080;
+const hostname = '0.0.0.0';
+// const port = 8080;
 
 const server = http.createServer((req, res) => {
+    if (req.url === '.') {  
+        res.writeHead(302, { Location: 'https://nodejsfinal.netlify.app' });
+        res.end();
+      }
     
-    if (req.url === '/') {
+    else if (req.url === '/') {
         // read public.html file from public folder
         fs.readFile(path.join(__dirname, 'public', 'index.html'),
                     (err, content) => {
@@ -97,5 +102,5 @@ function getContentType(filePath) {
 // environment variable, if not found then go for 5959
 const PORT= process.env.PORT || port;
 
-// port, callback
-server.listen(PORT,()=> console.log(`Great our server is running on port ${PORT} `));
+// // port, callback
+server.listen(PORT,hostname, ()=> console.log(`Great our server is running on port ${PORT} `));
