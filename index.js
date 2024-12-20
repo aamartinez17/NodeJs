@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
                 );
      }
 
-     else if (req.url === '/api/db.json')
+     else if (req.url === '/db.json')
       {
         const filePath = path.join(__dirname, 'public', 'db.json');
       console.log("File Path:", filePath); // Add this line
