@@ -1,0 +1,149 @@
+{
+    "clients": [
+        {
+            "name": "Alex Martinez",
+            "dob": "10/14/1990",
+            "ssn": "123-45-6789",
+            "status": "Married",
+            "dependants": 2,
+            "pictureURL": "./assets/Image3.jpg",
+            "notes":[
+                {
+                    "subject": "Initial Consultation",
+                    "date": "01/01/2024",
+                    "note": "Alex expressed interest in our social media management services. We discussed her business goals and how we could help her reach a wider audience. Scheduled a follow-up call for next week to discuss pricing and packages."
+                },
+                {
+                   "subject": "Follow-up",
+                    "date": "01/30/2024",
+                    "note": "Alex had some questions about our website design process. I walked him through our typical workflow and provided examples of our past work. He seemed impressed and requested a formal proposal." 
+                },
+                {
+                    "subject": "Project Kickoff",
+                    "date": "02/15/2024",
+                    "note": "Met with the Alex's team to discuss their new branding project. We reviewed the project scope, timeline, and deliverables. Everyone is excited to get started!" 
+                }
+            ]
+        },
+        {
+            "name": "Jane Doe",
+            "dob": "08/23/1993",
+            "ssn": "456-65-3754",
+            "status": "Single",
+            "dependants": 0,
+            "pictureURL": "./assets/Image1.jpg",
+            "notes":[
+                {
+                    "subject": "Client Check-in",
+                    "date": "04/01/2024",
+                    "note": "Met with Jane Doe to discuss her tax preparation needs. She brought in their previous year's return and some basic information. Scheduled an appointment for next week to review their organized documents."
+                },
+                {
+                   "subject": "Initial Consultation",
+                    "date": "04/30/2024",
+                    "note": "Jane contacted us with an issue regarding his email marketing campaign. We identified the problem and provided a solution to ensure his emails are delivered successfully." 
+                },
+                {
+                    "subject": "Feedback Review",
+                    "date": "05/15/2024",
+                    "note": "Reviewed feedback from Jane on their latest marketing materials. They were pleased with the overall design but requested a few minor revisions."
+                },
+                {
+                    "subject": "Audit Support",
+                    "date": "06/01/2024",
+                    "note": "Provided support to Jane during an IRS audit.  Gathered necessary documentation and represented her during the audit meeting."
+                }
+            ]
+        },
+        {
+            "name": "Bob Baker",
+            "dob": "03/24/1985",
+            "ssn": "567-35-6474",
+            "status": "Married",
+            "dependants": 3,
+            "pictureURL": "./assets/Image2.jpg",
+            "notes":[
+                {
+                    "subject": "Payment Received",
+                    "date": "01/01/2024",
+                    "note": "Received full payment from Bob Baker for their recent order of custom-printed promotional items."
+                },
+                {
+                   "subject": "Referral",
+                    "date": "01/30/2024",
+                    "note": "Bob referred a new client, a local bookstore, who is interested in our SEO services. We'll be reaching out to them next week." 
+                },
+                {
+                    "subject": "Birthday Greeting",
+                    "date": "03/24/2024",
+                    "note": "Sent a birthday card to Bob, the owner of Mary's Crafts, to wish her a happy birthday." 
+                },
+                {
+                    "subject": "Quarterly Tax Payment",
+                    "date": "04/24/2024",
+                    "note": "Reminded Bob of their upcoming quarterly tax payment deadline.  Provided instructions for online payment" 
+                }
+            ]
+        },
+        {
+            "name": "Jerry Tuber",
+            "dob": "06/16/1993",
+            "ssn": "341-49-3829",
+            "status": "Single",
+            "dependants": 0,
+            "pictureURL": "./assets/Image4.jpg",
+            "notes":[
+                {
+                    "subject": "Small Business Consultation",
+                    "date": "07/35/2024",
+                    "note": "Provided tax advice to Jerry, a new small business, on entity selection, record-keeping, and estimated tax payments."
+                },
+                {
+                   "subject": "Document Review",
+                    "date": "08/13/2024",
+                    "note": "Reviewed the latest blog post draft for Jerry and provided feedback on content and SEO" 
+                },
+                {
+                    "subject": "Tax Preparation",
+                    "date": "09/03/2024",
+                    "note": "Prepared the corporate tax return for Jerry.  Filed electronically and confirmed successful submission to the IRS." 
+                }
+            ]
+        },
+        {
+            "name": "Mary Johnson",
+            "dob": "11/11/1987",
+            "ssn": "341-64-5867",
+            "status": "Divorsed",
+            "dependants": 1,
+            "pictureURL": "./assets/Image5.jpg",
+            "notes":[
+                {
+                    "subject": "Extension Filing",
+                    "date": "08/17/2024",
+                    "note": "Filed an extension for Mary as they are still gathering necessary documentation.  Set a reminder to follow up in September."
+                },
+                {
+                   "subject": "Tax Planning Consultation",
+                    "date": "09/02/2024",
+                    "note": "Met with Mary Johnson to discuss tax planning strategies for the upcoming year. Advised her on maximizing retirement contributions and potential investment deductions." 
+                },
+                {
+                    "subject": "Amended Return",
+                    "date": "10/10/2024",
+                    "note": "Filed an amended return for Paul Miller to correct an error on his previous year's filing.  Explained the reason for the amendment and answered his questions." 
+                },
+                {
+                    "subject": "Estate Tax Preparation",
+                    "date": "10/15/2024",
+                    "note": "Met with the Mary to discuss estate tax preparation following the passing of Mary.  Guided them through the process and answered their questions with empathy." 
+                },
+                {
+                    "subject": "Retirement Planning",
+                    "date": "10/30/2024",
+                    "note": "Advised Mary on tax-efficient retirement planning strategies, including Roth IRA conversions and minimizing taxes on Social Security benefits." 
+                }
+            ]
+        }
+    ]
+}
